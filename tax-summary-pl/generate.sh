@@ -4,7 +4,7 @@ CURRENT_PATH="$(cd "$(dirname "$0")" && pwd -P)"
 
 MONTHS=("Styczeń" "Luty" "Marzec" "Kwiecień" "Maj" "Czerwiec" "Lipiec" "Sierpień" "Wrzesień" "Październik" "Listopad" "Grudzień")
 
-report_template="${CURRENT_PATH}/0000-00/0000-00 kwoty.fodt"
+report_template="${CURRENT_PATH}/0000-00/0000-00 kwoty.fods"
 
 echo -n "Year (i.e. 2021): "
 read year_input
@@ -21,7 +21,7 @@ month_input=${month_input:month_input_len-2:2}
 
 
 report_dir="${CURRENT_PATH}/${year_input}-${month_input}"
-report_file="${report_dir}/${year_input}-${month_input} kwoty.fodt"
+report_file="${report_dir}/${year_input}-${month_input} kwoty.fods"
 
 if [ -f "${report_file}" ]; then
     echo ""
@@ -38,6 +38,11 @@ read ppe_input
 
 echo -n "VAT (PLN): "
 read vat_input
+
+zus_input="${zus_input/,/.}"
+ppe_input="${ppe_input/,/.}"
+vat_input="${vat_input/,/.}"
+
 
 cat <<EOF
 Katalog:
