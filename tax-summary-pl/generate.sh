@@ -43,6 +43,10 @@ zus_input="${zus_input/,/.}"
 ppe_input="${ppe_input/,/.}"
 vat_input="${vat_input/,/.}"
 
+zus_input="${zus_input// }"
+ppe_input="${ppe_input// }"
+vat_input="${vat_input// }"
+
 
 cat <<EOF
 Katalog:
