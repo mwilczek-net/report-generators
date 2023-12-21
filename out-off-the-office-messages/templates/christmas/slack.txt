@@ -1,0 +1,8 @@
+Fireup.pro:
+:palm_tree:
+:christmas-parrot: :beer: :book: :notes: %DAY_FROM% <=> %DAY_TO% :confused_dog:
+
+SHUGAR:
+:palm_tree:
+:christmas-parrot: :beer: :book: :notes: %DAY_FROM% <=> %DAY_TO% :confused-dog:
+
