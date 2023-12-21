@@ -37,3 +37,8 @@ read_date date_to "END DATE"
 clear_terminal
 print_summary
 confirm_generation
+
+
+
+# myarray=(${(@f)"$(ls -1)"})
+# select a in $myarray; do echo $a; done
