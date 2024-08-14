@@ -23,7 +23,7 @@ EOF
 }
 
 function confirm_generation {
-    echo -n "Any enter key to generate report"
+    echo -n "Press ENTER key to generate report"
     read
 }
 
