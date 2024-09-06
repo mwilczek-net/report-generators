@@ -1,0 +1,8 @@
+Fireup.pro:
+:airplane:
+:office: :factory_worker: Delegacja %DAY_FROM% <=> %DAY_TO% :confused_dog:
+
+SHUGAR:
+:airplane:
+:office: :factory_worker: Business travel %DAY_FROM% <=> %DAY_TO% :confused-dog:
+
