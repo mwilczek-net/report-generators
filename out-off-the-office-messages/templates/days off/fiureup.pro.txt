@@ -1,0 +1,11 @@
+--------
+Subject:
+--------
+Off %DAY_FROM% - %DAY_TO%
+
+-----
+Body:
+-----
+I'm on a vacation from %DAY_FROM% to %DAY_TO% with limited or no access to email & slack.
+
+In case of emergency please contact hello@fireup.pro
