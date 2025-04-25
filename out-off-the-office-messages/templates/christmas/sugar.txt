@@ -1,0 +1,12 @@
+--------
+Subject:
+--------
+Off (Christmas) %DAY_FROM% - %DAY_TO%
+
+-----
+Body:
+-----
+I'm on a Christmas break from %DAY_FROM% to %DAY_TO% with limited or no access to email & slack.
+
+In case of emergency please reach to:
+-- EMAILS --
